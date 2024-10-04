@@ -1,0 +1,62 @@
+body {
+  background-color: #5c3002;
+  color: grey;
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+h1 {
+  color: blue;
+  font-family: "Papyrus", fantasy;
+}
+h3 {
+  color: blue;
+  font-family: "Papyrus", fantasy;
+}
+p {
+  color: red;
+  font-family: "Papyrus", fantasy;
+}
+.poop1 {
+  filter: hue-rotate(30deg);
+}
+.poop2 {
+  filter: hue-rotate(60deg);
+}
+.poop3 {
+  filter: hue-rotate(120deg);
+}
+.rainbowtxt2 {
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #ff9500,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #ff00ff,
+    #ff0000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skib{
+  color: blue;
+}
+@keyframes fade {
+  0% {
+  opacity: 0;
+  }
+  50% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  }
+}
+ 
+ 
+
+#flush {
+animation: fade 5s infinite;
+}
